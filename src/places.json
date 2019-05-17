@@ -1,0 +1,40 @@
+ [
+        {
+            "id": 1,
+            "name": "Place 1",
+            "img": "https://imghost.url/placeholder.png",
+            "url": "https://placeurl.com",
+            "description": "Placeholder text",
+            "location": {
+                "address": "Gata 1, 0001 Oslo",
+                "lat": 59.9098,
+                "lng": 10.7636
+            }
+        },
+        {
+            "id": 2,
+            "name": "Place 2",
+            "img": "https://imghost.url/placeholder.png",
+            "url": "https://placeurl.com",
+            "description": "Placeholder text",
+            "location": {
+                "address": "Gata 2, 0002 Oslo",
+                "lat": 59.9300,
+                "lng": 10.7636
+            }
+
+        },
+        {
+            "id": 3,
+            "name": "Place 3",
+            "img": "https://imghost.url/placeholder.png",
+            "url": "https://placeurl.com",
+            "description": "Placeholder text",
+            "location": {
+                "address": "Gata 3, 0003 Oslo",
+                "lat": 59.9098,
+                "lng": 10.8036
+            }
+
+        }
+    ]
