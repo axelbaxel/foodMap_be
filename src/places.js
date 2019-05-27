@@ -5,7 +5,9 @@ const places = require('./places.json')
 
 
 placeRouter.get('', (req, res, next) => {
+
     res.send(places)
+    console.log('sent')
 })
 
 placeRouter.get('/id/:id', (req, res, next) => {
@@ -25,8 +27,10 @@ placeRouter.put('/id/:id', (req, res, next) => {
     if(getElementById(id, places)) {
         updateElement(id, plUpdate, places)
         res.send(getElementById(id, places))
+       
     } else {
         res.status(404).send('Place not found')
+        console.log('no')
     }
 })
 
